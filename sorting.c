@@ -31,5 +31,12 @@ int main()
     putchar('\n');
     sort_array(scores, SIZE);
     print_array(scores, SIZE);
+    putchar('\n');
+
+    int scores2[6] = {100, 60, 70, 100, 90, 80};
+    print_array(scores2, 6);
+    putchar('\n');
+    sort_array(scores2, 6);
+    print_array(scores2, 6);
     return 0;
 }
